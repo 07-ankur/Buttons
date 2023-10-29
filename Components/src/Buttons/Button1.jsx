@@ -1,4 +1,4 @@
-import './Button1_btn.css'
+import './Button1.css'
 
 export default function Button1_btn({label,functionHandler}) {
   return (
