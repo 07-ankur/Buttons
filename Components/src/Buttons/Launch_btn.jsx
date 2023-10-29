@@ -4,7 +4,7 @@ import React from 'react'
 
 const Launch_btn = ({sx={},...props}) => {
   return (
-    <Button variant='contained' sx={{borderRadius:4.5,height:58,px:2.5,my:2}}>
+    <Button variant='contained' sx={{borderRadius:4.5, ...sx}}>
        {props.title}
        <KeyboardArrowRight/>
     </Button>
